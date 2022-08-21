@@ -5,7 +5,7 @@ interface StyledButtonMainProps {
 }
 
 const StyledButtonMain = styled.button<StyledButtonMainProps>`
-  width: 640px;
+  width: 100%;
   height: 60px;
   background: #4a67ff;
   border-radius: 8px;

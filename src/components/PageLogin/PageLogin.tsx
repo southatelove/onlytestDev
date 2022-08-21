@@ -102,11 +102,10 @@ function PageLogin() {
                   <p>Запомнить пароль</p>
                 </StyledLabel>
               </div>
-              <div>
-                <StyledButtonMain type="submit" $disable={isloading}>
-                  Войти
-                </StyledButtonMain>
-              </div>
+
+              <StyledButtonMain type="submit" $disable={isloading}>
+                Войти
+              </StyledButtonMain>
             </div>
           </Form>
         </Main>
