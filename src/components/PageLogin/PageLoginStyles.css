@@ -1,0 +1,68 @@
+
+.textLogin{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+margin: 0;
+padding-bottom: 10px;
+}
+
+.check__input{
+  display: none;
+}
+.fake{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  position: relative;
+  margin-right: 14px; 
+}
+.fake::before{
+  border-radius: 2px;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  width: 14px;
+  height: 14px;
+  background: #4a67ff;
+  opacity: 0;
+  transition: .2s;
+  
+}
+.check__input:checked + .fake::before{
+  opacity: 1;
+}
+.check{
+  display: flex;
+  margin-top: 21px;
+  
+}
+.check > label> p {
+  margin: 0;
+}
+.figure{
+  width: 20px;
+  height: 20px;
+  background-color: #FFC8C8;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0;
+}
+
+.figureIcon {
+
+  padding-bottom: 2px;
+  padding-left: 0.5px;
+  color: #EE6565;
+
+  font-style: normal;
+  
+}

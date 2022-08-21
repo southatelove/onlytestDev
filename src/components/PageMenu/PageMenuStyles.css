@@ -1,0 +1,9 @@
+.helloUser{
+    font-size:40px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 48.84px;
+}
+.helloUser>span{
+    font-weight: 700;
+}
